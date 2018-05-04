@@ -1,6 +1,6 @@
 import {
   Component, ChangeDetectorRef, transition, state, trigger, style, animate,
-  NgZone, OnDestroy, AnimationTransitionEvent} from '@angular/core';
+  NgZone, OnDestroy, AnimationEvent} from '@angular/core';
 import {Toast} from './toast';
 import {ToastOptions} from './toast-options';
 import {DomSanitizer} from '@angular/platform-browser';
